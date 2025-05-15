@@ -1,5 +1,9 @@
 # Install dependencies 
-1.pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Run the server
-uvicorn app:app --reload
+uvicorn app:app --reload 
+
+or 
+
+python3 -m uvicorn app:app --reload
